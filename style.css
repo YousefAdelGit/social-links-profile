@@ -83,6 +83,19 @@ li:hover a{
     color: rgb(20, 20, 20);
     background-color: rgb(197, 248, 42);
 }
+a:focus {
+    color: rgb(20, 20, 20);
+    background-color: rgb(197, 248, 42);
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+li:has(a:focus){
+    color: rgb(20, 20, 20);
+    background-color: rgb(197, 248, 42);
+}
+
 
 .attribution { 
     font-family: "Inter", sans-serif;
